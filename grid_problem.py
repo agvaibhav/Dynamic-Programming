@@ -1,5 +1,6 @@
 #Grid problem
 # to find the min cost of travelling from 1 point to another
+# here we want min cost of travelling from (0,0) to (row-1, col-1)  i.e. starting to end
 
 def minCost(grid, row, col):
     dp = [[-1 for _ in range(col)] for _ in range(row)]
